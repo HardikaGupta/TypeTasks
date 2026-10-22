@@ -1,4 +1,5 @@
 // model.ts
+// TypeTasks - Part 1 Model Implementation
 
 // 1. TaskStatus Literal Union
 type TaskStatus = "todo" | "in-progress" | "done";
