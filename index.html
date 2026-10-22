@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TypeTasks | Task Tracker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <h1>TypeTasks</h1>
+    <p>A type-safe task tracker built with TypeScript.</p>
+
+    <div class="addrow">
+      <input id="title" placeholder="Add a task..." />
+      <button id="add">Add</button>
+    </div>
+
+    <div id="chips" class="filters">
+      <button class="chip active" data-status="all">All</button>
+      <button class="chip" data-status="todo">Todo</button>
+      <button class="chip" data-status="in-progress">In-Progress</button>
+      <button class="chip" data-status="done">Done</button>
+    </div>
+
+    <ul id="list"></ul>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
